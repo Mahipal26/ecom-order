@@ -24,7 +24,6 @@ public class Orders implements Serializable {
     private Date orderDate;
     private Date requiredDate;
     private Date shippedDate;
-   // @Column(name = "status")
     private String status;
     private String comments;
     private int customerNumber;

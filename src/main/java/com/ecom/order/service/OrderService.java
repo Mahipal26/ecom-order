@@ -15,4 +15,9 @@ public interface OrderService {
     List<Orders> getOrdersBystatus(String status);
 
     List<Orders> getOrderByCustomerNumber(int customerId);
+
+
+    Orders insertOrder(Orders order);
+
+    void deleteOrder(long id);
 }
